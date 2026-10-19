@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Three Maze Explorer</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="hud">
+      <span id="score">Orbs: 0 / 5</span>
+      <span id="status">Find the orbs, then reach the portal</span>
+    </div>
+    <div id="hint">WASD / arrow keys to move &nbsp;·&nbsp; R to restart</div>
+    <div id="overlay" class="hidden">
+      <h1 id="overlay-title">You Escaped!</h1>
+      <p id="overlay-text">Press R or click to play again</p>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
